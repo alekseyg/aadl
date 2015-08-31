@@ -1,0 +1,139 @@
+*{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+html {
+	border: solid 1.8pt #333333;
+	/*border-width: 2.8pt 2pt 2.8pt 1.8pt;*/
+	border-width: 2pt 0 0 0;
+}
+
+body {
+	background:#945e23;
+	color:white;
+	margin: 0;
+	padding: 0;
+}
+
+#top {
+	background: url(images/bannerbg.jpg) no-repeat top right;
+}
+
+#main {
+	margin: 1em;
+}
+
+#toAA {
+	color: #333333;
+	display: block;
+	text-align: right;
+	text-decoration: underline;
+	margin: 0.5em 1em 0.5em 1em;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	font-weight: bold;
+}
+
+#toAA:hover {
+	color: #654118;
+	background: #a46e33;
+}
+
+.zi_l {
+	margin-top: 1em;
+}
+
+.zi_l a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 0.5em;
+	padding: 0.2em;
+	width: 100%;
+}
+
+.zi_c {
+	color: black;
+}
+
+.ifl {
+	border: inset 0.8pt #333333;
+	float: left;
+	height: 97.5px;
+	width: 75px;
+	margin: 1.2em;
+	margin-left: 0;
+}
+
+.dls {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 0;
+}
+
+.dls li {
+	display: inline;
+	margin: 0.2em;
+}
+
+.dls li a {
+	color: black;
+	font-weight: bold;
+}
+
+.dls li a:hover {
+	color: #654118;
+}
+
+#copy {
+	border-top: solid 0.8pt #333333;
+	color: #333333;
+	text-align: center;
+	font-size: 7pt;
+}
+/****/
+.tt {
+	border-collapse: collapse;
+	height: 40px;
+}
+
+.tt td { padding: 0; }
+
+.tt .ttl {
+	background: url(images/box/left.gif);
+	width: 13px;
+}
+
+.tt .ttr {
+	background: url(images/box/right.gif);
+	width: 13px;
+}
+
+.tt .ttm {
+	background: url(images/box/back.gif);
+	width: 100%;
+}
+
+.tt td img.s { width: 13px; }
+
+.tb { border-collapse: collapse; }
+.tb td { padding: 0; }
+
+.tb .tbt td { font-size: 1px; height: 11px; }
+.tb .tbt .tbtl { background: url(images/box/xtl.gif); }
+.tb .tbt .tbtr { background: url(images/box/xtr.gif); }
+.tb .tbt .tbtm { background: url(images/box/xt.gif); }
+.tb .tbt td .s { width: 13px; height: 2px; }
+
+.tb .tbb td { font-size: 1px; height: 12px; }
+.tb .tbb .tbbl { background: url(images/box/xbl.gif); }
+.tb .tbb .tbbr { background: url(images/box/xbr.gif); }
+.tb .tbb .tbbm { background: url(images/box/xb.gif); }
+.tb .tbb td .s { height: 2px; width: 13px; }
+
+.tb .tbm .tbml { background: url(images/box/xl.gif); }
+.tb .tbm .tbmr { background: url(images/box/xr.gif); }
+.tb .tbm .tbmm { background: #F1EFE2; width: 100%; }
+.tb .tbm td .s { width: 13px; height: 2px; }
